@@ -1,0 +1,40 @@
+body{
+    background: url("background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6, a, p, label{
+    color: white;
+}
+.accordion-item {
+    background: transparent !important;
+    border: none !important;
+    background: rgba(255, 255, 255, 0.247) !important;
+    border-radius: 10px !important;
+}
+
+.accordion-button {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: black !important; /* Ensures text remains visible */
+    border-radius: 10px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background: rgba(255, 255, 255, 0.459) !important; /* Slight transparency when expanded */
+}
+
+.accordion-button:focus {
+    box-shadow: none !important; /* Removes focus border */
+}
+
+#accordionFlushExample{
+    border-radius: 10px !important;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.247); /* Light gray with opacity */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Slightly visible border */
+}
